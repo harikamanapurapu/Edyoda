@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Edyoda/static/css/main.ce5f096a.css",
+    "main.css": "/Edyoda/static/css/main.45523b19.css",
     "main.js": "/Edyoda/static/js/main.21938b66.js",
     "static/media/background.png": "/Edyoda/static/media/background.a86e862d2c35475d14ea.png",
     "static/media/Roboto-Regular.ttf": "/Edyoda/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Raleway-Regular.ttf": "/Edyoda/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
     "index.html": "/Edyoda/index.html",
-    "main.ce5f096a.css.map": "/Edyoda/static/css/main.ce5f096a.css.map",
+    "main.45523b19.css.map": "/Edyoda/static/css/main.45523b19.css.map",
     "main.21938b66.js.map": "/Edyoda/static/js/main.21938b66.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce5f096a.css",
+    "static/css/main.45523b19.css",
     "static/js/main.21938b66.js"
   ]
 }

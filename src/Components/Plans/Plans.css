@@ -1,0 +1,371 @@
+@font-face {
+    font-family: Raleway;
+    src: url("C:\Users\harik\Downloads\web-app\src\Components\Raleway,Roboto\Raleway\static\Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("C:\Users\harik\Downloads\web-app\src\Components\Raleway,Roboto\Roboto\Roboto-Regular.ttf");
+}
+
+.plans1.selected {
+    background: linear-gradient(0deg, #8cf2a9, #88d59e);
+    border: 2px solid hsla(137, 45%, 50%, 1)
+
+  }
+.form{
+    width:520px;
+    height: 628px;
+    position: absolute;
+    top: 110px;
+    left: 58%;
+    padding: 36px 24px 36px 24px;
+    border-radius: 8px;
+    gap: 28px;
+    background-color: white;
+}
+.processes{
+    width: 510px;
+    height: 40px;
+    gap: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.process{
+    width: 38px;
+    height: 38px;
+    border-radius: 1000px;
+    background: hsla(205, 100%, 50%, 1);
+    border: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.process-para{
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    color: hsla(207, 15%, 28%, 1);
+    justify-content: center;
+}
+
+.selection{
+    width: 501px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+    padding-top: 25px;
+    margin-top: 10px;
+}
+.plans{
+    width: 490px;
+    height: 30px;
+    padding: 16px;
+    border: 2px solid hsla(0, 0%, 75%, 1);
+    border-radius: 4px;
+    gap: 12px;
+     background: /*linear-gradient(0deg, #BEBEBE, #BEBEBE), */
+    linear-gradient(0deg, #E7E7E7, #E7E7E7);
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 17px;
+}
+.valid{
+    width: 111px;
+    height: 16px;
+    padding: 1px 29px 1px 29px;
+    border-radius: 0px 0px 4px 4px;
+    background: hsla(0, 89%, 71%, 1);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top:148px;
+    left:70px;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio{
+    width: 32px;
+    height: 32px;
+    border: 2px solid hsla(0, 0%, 75%, 1);
+    margin-right: 10px;
+}
+.period{
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    color: hsla(0, 0%, 75%, 1);
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 33px;
+    margin-top: 5px;
+}
+.total-amount{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: hsla(0, 0%, 75%, 1);
+}
+.months{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: hsla(0, 0%, 75%, 1);
+}
+.dis{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: hsla(0, 0%, 75%, 1);
+}
+.mon{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: hsla(0, 0%, 75%, 1);
+
+
+}
+.valid1{
+    width: 111px;
+    height: 15px;
+    padding: 1px 29px 1px 29px;
+    border-radius: 0px 0px 4px 4px;
+    background: green;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top:223px;
+    left:70px;
+    margin-bottom: 15px;
+}
+.period1{
+    color: hsla(207, 15%, 28%, 1);
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+.radio1{
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsla(0, 0%, 75%, 1);
+    border-radius: 100px;
+    margin-right: 10px;
+
+}
+.plans1{
+    width: 490px;
+    height: 30px;
+    padding: 16px;
+    border: 2px solid hsla(0, 0%, 75%, 1);
+    border-radius: 4px;
+    gap: 12px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.amount1{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 33px;
+    margin-top: 5px;
+}
+.dis1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+
+}
+.months1{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+
+}
+.total-amount1{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+}
+.mon1{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+
+
+}
+.details{
+    width: 483px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.fee{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+}
+.feeamount{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+}
+.limitedOfferBox{
+    margin-top: 10px;
+    width: 470px;
+    height: 30px;
+    padding: 12px 24px 12px 24px;
+    border: 2px solid  hsla(14, 84%, 47%, 1);
+    border-radius: 8px;
+    background-color: rgb(250, 180, 180);
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.limitedOffer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.limitText{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: hsla(14, 84%, 47%, 1);
+}
+.limitbox{
+    display: flex;
+    flex-direction: row;
+}
+.limit{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    /* padding: 1.9999425411224365px 2.000014305114746px 2.0000574588775635px 1.999985694885254px; */
+}
+.offer{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: hsla(14, 84%, 47%, 1);
+}
+.limitamount{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+}
+.totaldetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 490px;
+
+}
+.totalfee{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+
+}
+.gst{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+}
+.totalamount{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: hsla(207, 15%, 28%, 1);
+}
+.buttons{
+    display: flex;
+    width: 501px;
+    height: 40px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.cancelbtn{
+    width: 230.5px;
+    height: 40px;
+    padding: 10px 42px 10px 42px;
+    border: 2px solid hsla(0, 89%, 71%, 1);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: hsla(0, 89%, 71%, 1) ;
+    background-color: white;
+}
+.paybtn{
+    width: 230.5px;
+    height: 40px;
+    padding: 10px 42px 10px 42px;
+    border: none;
+    border-radius: 4px;
+    background: hsla(137, 45%, 50%, 1);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.pay{
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
